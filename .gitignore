@@ -1,0 +1,56 @@
+# ---- General build artifacts ----
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.class
+
+# Debug / PDB
+*.pdb
+*.ilk
+
+# Compiled static / temporary files
+*.lib
+*.a
+*.lo
+*.lai
+*.la
+*.log
+
+# ---- Folders ----
+build/
+bin/
+Debug/
+Release/
+dist/
+cmake-build-*/
+
+# ---- IDE / editor ----
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- CMake ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ---- Other undesired ----
+*.swp
+*~
+*.tmp
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# If you keep any generated package files or archives:
+*.zip
+*.tar.gz
