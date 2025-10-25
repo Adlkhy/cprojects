@@ -43,7 +43,7 @@ bool isValidIP(char* ip) {
 
 int main() {
     char ip[16];
-    
+    cout << "Input: ";
     cin >> ip;
     
     if (isValidIP(ip)) {
